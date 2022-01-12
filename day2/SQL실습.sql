@@ -62,3 +62,18 @@ select ename, job, sal, sal*12 ANNSAL
 select ename, job, sal, sal*12 ANNSAL
  from emp
  where ename like 'J%E%';
+ 
+ --NULL ( 함수 NVL() )
+SELECT ename, job, sal, comm
+from emp
+where comm is not null;
+
+--집합
+SELECT empno, ename, job from emp
+union --집합 간 관계가 없더라도 사용 가능
+select deptno, dname, loc from dept;
+
+SELECT empno, ename, job from emp
+where comm is not null
+union all
+select deptno, dname, loc from dept;
