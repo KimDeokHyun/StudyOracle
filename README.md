@@ -21,3 +21,23 @@ Oracle 학습 리포지토리
  - DML(INSERT, UPDATE, DELETE문)
  - SEQUENCE
  - 트랜잭션 (COMMIT, ROLLBACK)
+
+### 4일차 학습
+- SELECT 응용및 복습
+- WHERE 절
+- Alias
+- 사칙연산, 등가조건 복습
+- ERD model 작성
+
+### 5일차 학습
+- BETWEEN
+- WHERE
+  - IN (Select)
+  - LIKE '%'
+- SELETE
+  - || ,CONCAT
+  - LOWER , UPPER, INITCAP
+  - REPLACE
+  - SYSDATE ('YYYY-MM-YY')
+  - to char
+  - ROUND, AVG
