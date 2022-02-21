@@ -41,3 +41,27 @@ Oracle 학습 리포지토리
   - SYSDATE ('YYYY-MM-YY')
   - to char
   - ROUND, AVG
+
+### 6일차 학습
+ - 데이터에서 Table 데이터 조회 (Select 응용)
+  - 최대 최소값 (max-min)
+  - count 
+  - group by ~ having 
+  - substr
+  - decode
+  - case~end
+
+
+### 7일차 학습
+ - Join
+  - ANSI방식
+  - 국제표준형
+  - 일반형
+
+### 8일차
+ - inner join
+ - outter join
+ 
+### 9일차
+ - 빅데이터와 인공지능 그리고 머신러닝 개관 
+ - anaconda 설치
